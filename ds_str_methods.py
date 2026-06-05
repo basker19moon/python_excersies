@@ -1,0 +1,15 @@
+# This is a string Object
+
+name = "Swaroop"
+
+if name.startswith('Swa'):
+    print('Yes!, The String starts with "Swa"')
+if "a" in name:
+    print("Yes, it contains the string 'a'")
+if name.find('war') != -1:
+    print("Yes, it contains the string 'war' ")
+
+delimeter = "_*_"
+
+mylist = ['Brazil', 'Russia', 'India', 'China']
+print(delimeter.join(mylist))
