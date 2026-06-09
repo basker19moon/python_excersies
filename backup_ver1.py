@@ -37,7 +37,7 @@ if not os.path.exists(target_dir):
 #zip_command =  'zip -r {0} {1}'.format(target, ''.join(source))
 zip_command = 'powershell Compress-Archive -Path "{1}" -DestinationPath "{0}"'.format(target, source)
 
-# Run the backup 
+# Run the backup ew
 print('Zip command is :')
 print(zip_command)
 print('Running')
