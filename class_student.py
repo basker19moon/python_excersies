@@ -1,15 +1,16 @@
-class Student:
+class student:
     rno = 10
-    name = 'Ramesh'
+    name = "Udvitha"
     def display(self):
-        rno = 100
+        rno=100 #local variable
         print(rno)
-        print('Roll NO is ', self.rno)
-        print('Name is ', self.name)
+        print('Roll No is: ', self.rno)
+        print('Name is: ', self.name)
 
-s1=Student()
+s1=student()
 s1.display()
-s2=Student
-s2.rno=200
-s2.name='Bhaskar'
-s2.display(s2)
+s2=student()
+s2.rno=20
+s2.name = "Aarush"
+s2.display()
+
